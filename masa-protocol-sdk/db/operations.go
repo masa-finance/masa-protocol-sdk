@@ -1,6 +1,6 @@
 package db
 
-import "oracledata"
+import "masaprotocolsdk"
 
 type Work struct {
 	// Define the structure fields here
@@ -16,7 +16,7 @@ func FireEvent(uid string, value []byte) error {
 	return nil
 }
 
-func GetData(uid string) ([]oracledata.Work, error) {
+func GetData(uid string) ([]masaprotocolsdk.Work, error) {
 	// Implement your function here
 	return nil, nil
 }
